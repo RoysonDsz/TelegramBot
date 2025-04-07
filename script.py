@@ -36,13 +36,13 @@ def gemini_response(user_input):
             return messages
 
         except IndexError:
-            return ["No valid response received from Gemini."]
+            return ["No valid response received from Server."]
     else:
         return [f"API Error: {response.status_code} - {response.text}"]
 
 # Telegram Command Handler
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("Hello! I'm your AI bot powered by Gemini. Ask me anything!")
+    await update.message.reply_text("Hello! I'm your AI bot , engineered by Royson Dsz. Ask me anything!")
 
 # Message Handler
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
