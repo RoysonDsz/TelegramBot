@@ -17,7 +17,7 @@ A Telegram bot powered by Google's Gemini API, built with `python-telegram-bot` 
 ### 1. Clone the repository
 
 ```bash
-git clone [https://github.com/yourusername/gemini-telegram-bot.git](https://github.com/RoysonDsz/TelegramBot.git)
+git clone https://github.com/RoysonDsz/TelegramBot.git
 cd gemini-telegram-bot
 ```
 
