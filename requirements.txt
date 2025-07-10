@@ -1,5 +1,5 @@
-python-telegram-bot[webhooks]==20.0
 python-dotenv
 requests
 httpx
 openai==1.11.0
+python-telegram-bot==20.7
